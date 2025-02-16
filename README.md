@@ -3,14 +3,14 @@
 🚀 A Node.js-based **GraphQL API** for managing employees, supporting **user authentication, employee CRUD operations, and file uploads**.
 
 ## 📖 Table of Contents
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Server](#running-the-server)
-- [API Endpoints](#api-endpoints)
-- [Testing with Postman](#testing-with-postman)
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Installation](#-installation)
+- [Environment Variables](#-environment-variables)
+- [Running the Server](#-running-the-server)
+- [API Endpoints](#-api-endpoints)
+- [Testing with Postman](#-testing-with-postman)
 
 ---
 

@@ -52,6 +52,7 @@ const resolvers = {
                     { expiresIn: '1h' }
                 );
 
+                console.log(`Login Successful for user: ${user.username}`);
                 return {id: user.id, username: user.username, email: user.email, token };
             } catch (error) {
                 throw new Error(error.message);
@@ -102,7 +103,7 @@ const resolvers = {
                 });
                 
                 await user.save();
-
+                console.log(`Sign Up Successful: New User Created - ${user.username}`);
                 return user;
             } catch (error) {
                 throw new Error(error.message);
@@ -158,6 +159,7 @@ const resolvers = {
 
                 await employee.save();
 
+                console.log(`New Employee Added: ${employee.first_name} ${employee.last_name} - ID: ${employee.id}`);
                 return employee;
             } catch (error) {
                 throw new Error(error.message);
@@ -218,6 +220,7 @@ const resolvers = {
                     },
                     { new: true }
                 );
+                console.log(`Employee Updated Successfully: ${updatedEmployee.first_name} ${updatedEmployee.last_name} - New Photo: ${updatedEmployee.employee_photo}`);
                 return updatedEmployee;
             } catch (error) {
                 throw new Error(error.message);
@@ -244,7 +247,8 @@ const resolvers = {
                 }
 
                 await Employee.findByIdAndDelete(id);
-
+                
+                console.log(`Employee with ID: ${id} Deleted Successfully`);
                 return "Employee deleted successfully";
             } catch(error) {
                 throw new Error(error.message);

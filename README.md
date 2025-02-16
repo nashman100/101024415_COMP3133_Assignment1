@@ -6,10 +6,10 @@
 - [About the Project](#-about-the-project)
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
-- [Installation](#-installation)
+- [Installation](#-installation-1)
 - [Environment Variables](#-environment-variables)
 - [Running the Server](#-running-the-server)
-- [API Endpoints](#-api-endpoints)
+- [API Endpoints](#-api-endpoints-graphql-mutations--queries)
 - [Testing with Postman](#-testing-with-postman)
 
 ---
